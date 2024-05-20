@@ -4,7 +4,9 @@
 [![Docker Stars](https://img.shields.io/docker/stars/pcloud/crane-coscli.svg?style=flat)](https://hub.docker.com/r/pcloud/crane-coscli/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/pcloud/crane-coscli.svg?style=flat)](https://hub.docker.com/r/pcloud/crane-coscli/)
 
-An utility image with [Crane](https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md) and [COSCLI](https://www.tencentcloud.com/document/product/436/43249)
+An utility image with:
+- [Crane](https://github.com/google/go-containerregistry/blob/main/cmd/crane/doc/crane.md) 
+- [Tencent COSCLI](https://www.tencentcloud.com/document/product/436/43249)
 
 ## Build and run
 
@@ -30,7 +32,7 @@ ea19b579661d99bc753c92e93730b8aab6ecd31b
 
 ## Use with CICD
 
-### Gitlab CICD
+### Gitlab
 
 ```yaml
 stages:
